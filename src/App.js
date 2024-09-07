@@ -15,9 +15,9 @@ function App() {
           <nav className="bg-slate-600 p-4">
             <div className="container mx-auto flex justify-between items-center">
             <div className="flex items-center space-x-4">
-                <img src={'/logo.svg'} alt="AF Logo" className="w-12" /> 
+                <img src={`${process.env.PUBLIC_URL}/logo.svg`} alt="AF Logo" className="w-12" />
             </div>
-           
+                    
               <ul className="flex space-x-6">
                 <li><Link to="/" className="text-white hover:text-gray-200">Home</Link></li>
                 <li><Link to="/services" className="text-white hover:text-gray-200">Services</Link></li>
