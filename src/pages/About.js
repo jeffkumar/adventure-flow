@@ -2,9 +2,10 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold text-gray-900 mb-4">About Adventure Flow</h1>
-        <div className="flex items-center justify-between space-x-6">  
+      <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
+        
         <div className="flex-1">
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Adventure Flow was founded in 2023 by <strong>Jeff Kumar</strong>, a seasoned engineer with over 15 years of experience in enterprise software development. After years of working in the industry, Jeff discovered his passion for solution engineering and building impactful, customer-centric products through consulting.
@@ -22,8 +23,8 @@ const About = () => {
           </a>
         </div>
 
-        {/* Image Section with "Founder" text */}
-        <div className="w-32 h-32 flex flex-col items-center mt-[-60px]">
+        {/* Image Section */}
+        <div className="w-32 h-32 flex flex-col items-center mt-4 md:mt-0">
           <img
             className="rounded-full w-full h-full object-cover mb-2"
             src="https://i.ibb.co/4N5NvLG/IMG-0577.jpg"
