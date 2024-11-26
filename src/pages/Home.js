@@ -14,11 +14,11 @@ const Home = () => {
     <div className="p-6 max-w-3xl mx-auto">
       {/* Heading */}
       <h1 className="text-3xl font-bold text-primary mb-6">
-        Adventure Flow offers Botique Software Solutions
+        Adventure Flow offers Boutique Software Solutions
       </h1>
           
       {/* Animated Chart */}
-      <div className="mb-8">
+      <div className="mb-2">
         <AnimatedChart />
       </div>
 
