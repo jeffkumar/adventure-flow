@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-background text-primary py-16">
+    <section className="bg-background text-primary max-w-3xl mx-auto py-6">
       <div className="container mx-auto px-4">
         <div className="max-w-lg mx-auto bg-gray-800 shadow-lg p-8 rounded-lg">
           <h1 className="text-3xl font-bold mb-6 text-center">Get Your Free Consultation Today</h1>

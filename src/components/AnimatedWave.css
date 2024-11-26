@@ -1,0 +1,32 @@
+/* src/components/AnimatedWave.css */
+
+.wave-container {
+    width: 100%;
+    height: 6rem;
+    /* Adjust height as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+.wave-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    /* Double the width to accommodate two waves */
+    height: 100%;
+}
+
+.wave-group {
+    animation: moveWave 10s linear infinite;
+}
+
+@keyframes moveWave {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}

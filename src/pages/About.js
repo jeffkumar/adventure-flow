@@ -3,8 +3,8 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="bg-background text-primary py-6">
-      <div className="container mx-auto px-4">
+    <section className="bg-background text-primary max-w-3xl mx-auto p-6">
+      <div className="container mx-auto">
         {/* Heading */}
         <h1 className="text-3xl font-bold mb-8">
           About Adventure Flow
@@ -19,7 +19,7 @@ const About = () => {
               Adventure Flow was founded in 2023 by <strong className="font-semibold">Jeff Kumar</strong>, a seasoned engineer with over 15 years of experience in enterprise software development. After years of working in the industry, Jeff discovered his passion for solution engineering and building impactful, customer-centric products through consulting.
             </p>
             <p className="text-lg text-secondary leading-relaxed mb-6">
-              Specializing in <strong className="font-semibold">IoT observability</strong> and <strong className="font-semibold">energy management</strong>, Adventure Flow delivers actionable insights that enable organizations to optimize their energy infrastructure and make data-driven decisions.
+              Specializing in <strong className="font-semibold">IoT observability</strong>, <strong className="font-semibold">energy management</strong>, and comprehensive <strong className="font-semibold">cloud-native solutions</strong>, Adventure Flow delivers actionable insights that enable organizations to optimize their infrastructure, enhance operational efficiency, and make data-driven decisions across various domains.
             </p>
             <a
               href="https://www.linkedin.com/in/jeff-kumar-4a6b3424/"
