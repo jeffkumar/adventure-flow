@@ -1,3 +1,3 @@
 # adventure-flow
 
-My Marketing Site
+A marketing site for adventure flow
