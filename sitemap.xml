@@ -4,12 +4,12 @@
     <loc>https://adventureflow.ai/</loc>
   </url>
   <url>
-    <loc>https://adventureflow.ai/services</loc>
+    <loc>https://adventureflow.ai/#/services</loc>
   </url>
   <url>
-    <loc>https://adventureflow.ai/about</loc>
+    <loc>https://adventureflow.ai/#/about</loc>
   </url>
   <url>
-    <loc>https://adventureflow.ai/contact</loc>
+    <loc>https://adventureflow.ai/#/contact</loc>
   </url>
 </urlset>
